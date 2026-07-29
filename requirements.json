@@ -1,0 +1,46 @@
+{
+  "project_name": "منصة تسويق إلكتروني للسلع مع عمليات دفع وتوصيل",
+  "project_type": "ecommerce",
+  "color_palette": "orange-500 and gray-200",
+  "modules": [
+    "products",
+    "orders",
+    "payments"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "product_list",
+    "product_details",
+    "cart",
+    "checkout",
+    "order_history"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "product_list",
+      "product_details"
+    ],
+    "user": [
+      "index",
+      "product_list",
+      "product_details",
+      "cart",
+      "checkout",
+      "order_history"
+    ],
+    "admin": [
+      "index",
+      "product_list",
+      "product_details",
+      "cart",
+      "checkout",
+      "order_history",
+      "product_management",
+      "order_management",
+      "user_management"
+    ]
+  }
+}
